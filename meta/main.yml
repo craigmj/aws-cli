@@ -58,17 +58,17 @@ galaxy_info:
   #  - 9.1
   #  - 9.2
   - name: Ubuntu
-   versions:
-   - all
-   - lucid
-   - maverick
-   - natty
-   - oneiric
-   - precise
-   - quantal
-   - raring
-   - saucy
-   - trusty
+    versions:
+      - all
+  #    - lucid
+  #    - maverick
+  #    - natty
+  #    - oneiric
+  #    - precise
+  #    - quantal
+  #    - raring
+  #    - saucy
+  #    - trusty
   #- name: SLES
   #  versions:
   #  - all
