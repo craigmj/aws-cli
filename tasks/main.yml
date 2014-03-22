@@ -1,0 +1,18 @@
+---
+# tasks file for craigmj.aws.cli
+- name: Install pip when Debian
+  sudo: yes
+  apt: pkg={{ item }} state=present
+  with_items: 
+    - python-virtualenv
+    - python-pip
+  when: ansible_os_family == "Debian"
+
+# - name: Install pip when RedHat
+#   sudo: yes
+#   yum: name=http://ftp.icm.edu.pl/pub/Linux/fedora/linux/epel/6/i386/epel-release-6-8.noarch.rpm state=present
+#   when: ansible_os_family == "RedHat"
+
+- name: Install aws
+  sudo: yes
+  pip: name=awscli state=present
