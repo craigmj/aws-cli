@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Craig Mason-Jones
+  author: "Craig Mason-Jones"
   description: Installs Amazon Web Services CLI
   company: Lateral Alternative
   license: BSD
